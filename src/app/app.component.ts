@@ -9,9 +9,30 @@ import windowsShortcuts from '../assets/windowsShortcuts.json';
 })
 export class AppComponent {
   title = 'shortcutHelper';
+  typeDisplay: InfoObject[] = [
+    {keys: '',
+    description: '',
+    category: '',
+    computerType: '',
+  }
+];
 
-macShortcuts = macShortcuts;
+macShortcuts: InfoObject[] = macShortcuts;
+windowsShortcuts: InfoObject[] = windowsShortcuts;
+
+clickedButton(event) {
+  event === 'Mac' ?
+  this.typeDisplay = macShortcuts : this.typeDisplay = windowsShortcuts;
+}
 
 
 
 }
+
+interface InfoObject {
+  keys: string;
+  description: string;
+  category: string;
+  computerType: string;
+}
+

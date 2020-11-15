@@ -1,7 +1,11 @@
-<h1>{{ macShortcuts[0].computerType }}</h1>
-<div *ngFor="let shortcut of macShortcuts">
-  <p>{{ shortcut.keys }}</p>
-  <p>{{ shortcut.description }}</p>
+<div class="computerTypeButtons">
+  <button (click)="clickedButton('Mac')">Mac</button>
+  <button (click)="clickedButton('Windows')">Windows</button>
+  <h1>{{ typeDisplay[0].computerType }}</h1>
+  <div *ngFor="let shortcut of typeDisplay">
+    <p>{{ shortcut.keys }}</p>
+    <p>{{ shortcut.description }}</p>
+  </div>
 </div>
 
 <router-outlet></router-outlet>
