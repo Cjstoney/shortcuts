@@ -1,741 +1,741 @@
 [
   {
     "keys": "Ctrl+Shift+P, F1",
-    "definition": "Show Command Palette",
+    "description": "Show Command Palette",
     "category": "General",
-    "computerType": "Mac"
+    "computerType": "Windows"
   },
 
   {
     "keys": "Ctrl+P",
-    "definition": "Quick Open, Go to File…",
+    "description": "Quick Open, Go to File…",
     "category": "General",
-    "computerType": "Mac"
+    "computerType": "Windows"
   },
   {
     "keys": "Ctrl+Shift+N",
-    "definition": "New window/instance",
+    "description": "New window/instance",
     "category": "General",
-    "computerType": "Mac"
+    "computerType": "Windows"
   },
   {
     "keys": "Ctrl+Shift+W",
-    "definition": "Close window/instance",
+    "description": "Close window/instance",
     "category": "General",
-    "computerType": "Mac"
+    "computerType": "Windows"
   },
   {
     "keys": "Ctrl+",
-    "definition": "User Settings",
+    "description": "User Settings",
     "category": "General",
-    "computerType": "Mac"
+    "computerType": "Windows"
   },
 
   {
-    "key": "Ctrl+K Ctrl+S",
+    "keys": "Ctrl+K Ctrl+S",
     "description": "Keyboard Shortcuts",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Basic",
+    "keys": "Basic",
     "description": "editing",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+X",
+    "keys": "Ctrl+X",
     "description": "Cut line (empty selection)",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+C",
+    "keys": "Ctrl+C",
     "description": "Copy line (empty selection)",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+ ↑ / ↓",
+    "keys": "Alt+ ↑ / ↓",
     "description": "Move line up/down",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt + ↓ / ↑",
+    "keys": "Shift+Alt + ↓ / ↑",
     "description": "Copy line up/down",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+K",
+    "keys": "Ctrl+Shift+K",
     "description": "Delete line",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Enter",
+    "keys": "Ctrl+Enter",
     "description": "Insert line below",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+Enter",
+    "keys": "Ctrl+Shift+Enter",
     "description": "Insert line above",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+\\",
+    "keys": "Ctrl+Shift+\\",
     "description": "Jump to matching bracket",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+] / [",
+    "keys": "Ctrl+] / [",
     "description": "Indent/outdent line",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Home/",
+    "keys": "Home/",
     "description": "End Go to beginning/end of line",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Home",
+    "keys": "Ctrl+Home",
     "description": "Go to beginning of file",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+End",
+    "keys": "Ctrl+End",
     "description": "Go to end of file",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+↑ / ↓",
+    "keys": "Ctrl+↑ / ↓",
     "description": "Scroll line up/down",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+PgUp / PgDn",
+    "keys": "Alt+PgUp / PgDn",
     "description": "Scroll page up/down",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+[",
+    "keys": "Ctrl+Shift+[",
     "description": "Fold (collapse) region",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+]",
+    "keys": "Ctrl+Shift+]",
     "description": "Unfold (uncollapse) region",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+[",
+    "keys": "Ctrl+K Ctrl+[",
     "description": "Fold (collapse) all subregions",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+]",
+    "keys": "Ctrl+K Ctrl+]",
     "description": "Unfold (uncollapse) all subregions",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+0",
+    "keys": "Ctrl+K Ctrl+0",
     "description": "Fold (collapse) all regions",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+J",
+    "keys": "Ctrl+K Ctrl+J",
     "description": "Unfold (uncollapse) all regions",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+C",
+    "keys": "Ctrl+K Ctrl+C",
     "description": "Add line comment",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+U",
+    "keys": "Ctrl+K Ctrl+U",
     "description": "Remove line comment",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+/",
+    "keys": "Ctrl+/",
     "description": "Toggle line comment",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt+A",
+    "keys": "Shift+Alt+A",
     "description": "Toggle block comment",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+Z",
+    "keys": "Alt+Z",
     "description": "Toggle word wrap",
     "category": "General",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+T",
+    "keys": "Ctrl+T",
     "description": "Show all Symbols",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+G",
+    "keys": "Ctrl+G",
     "description": "Go to Line...",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+P",
+    "keys": "Ctrl+P",
     "description": "Go to File...",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+O",
+    "keys": "Ctrl+Shift+O",
     "description": "Go to Symbol...",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+M",
+    "keys": "Ctrl+Shift+M",
     "description": "Show Problems panel",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "F8",
+    "keys": "F8",
     "description": "Go to next error or warning",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+F8",
+    "keys": "Shift+F8",
     "description": "Go to previous error or warning",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+Tab",
+    "keys": "Ctrl+Shift+Tab",
     "description": "Navigate editor group history",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+← / →",
+    "keys": "Alt+← / →",
     "description": "Go back / forward",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+M",
+    "keys": "Ctrl+M",
     "description": "Toggle Tab moves focus",
     "category": "Navigation",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+F",
+    "keys": "Ctrl+F",
     "description": "Find",
     "category": "Search and replace",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+H",
+    "keys": "Ctrl+H",
     "description": "Replace",
     "category": "Search and replace",
     "computerType": "Windows"
   },
   {
-    "key": "F3 / Shift+F3",
+    "keys": "F3 / Shift+F3",
     "description": " Find next/previous",
     "category": "Search and replace",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+Enter",
+    "keys": "Alt+Enter",
     "description": "Select all occurrences of Find match",
     "category": "Search and replace",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+D",
+    "keys": "Ctrl+D",
     "description": "Add selection to next Find match",
     "category": "Search and replace",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+D",
+    "keys": "Ctrl+K Ctrl+D",
     "description": "Move last selection to next Find match",
     "category": "Search and replace",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+C/ R / W",
+    "keys": "Alt+C/ R / W",
     "description": "Toggle case-sensitive / regex / whole word",
     "category": "Search and replace",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+Click",
+    "keys": "Alt+Click",
     "description": "Insert cursor",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Alt+ ↑ / ↓",
+    "keys": "Ctrl+Alt+ ↑ / ↓",
     "description": "Insert cursor above / below",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+U",
+    "keys": "Ctrl+U",
     "description": "Undo last cursor operation",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt+I",
+    "keys": "Shift+Alt+I",
     "description": "Insert cursor at end of each line selected",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+L",
+    "keys": "Ctrl+L",
     "description": "Select current line",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+L",
+    "keys": "Ctrl+Shift+L",
     "description": "Select all occurrences of current selection",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+F2",
+    "keys": "Ctrl+F2",
     "description": "Select all occurrences of current word",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt+→",
+    "keys": "Shift+Alt+→",
     "description": "Expand selection",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt+←",
+    "keys": "Shift+Alt+←",
     "description": "Shrink selection",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt+(drag mouse)",
+    "keys": "Shift+Alt+(drag mouse)",
     "description": "Column (box) selection",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+Alt+(arrow key)",
+    "keys": "Ctrl+Shift+Alt+(arrow key)",
     "description": "Column(box) selection",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+Alt+PgUp/PgDn",
+    "keys": "Ctrl+Shift+Alt+PgUp/PgDn",
     "description": "Column (box) selection page up/down",
     "category": "Multi-cursor and selection",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Space",
+    "keys": "Ctrl+Space",
     "description": "Trigger suggestion",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+Space",
+    "keys": "Ctrl+Shift+Space",
     "description": "Trigger parameter hints",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt+F",
+    "keys": "Shift+Alt+F",
     "description": " Format document",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+F",
+    "keys": "Ctrl+K Ctrl+F",
     "description": "Format selection",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "F12",
+    "keys": "F12",
     "description": "Go to Definition",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Alt+F12",
+    "keys": "Alt+F12",
     "description": "Peek Definition",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K F12",
+    "keys": "Ctrl+K F12",
     "description": "Open Definition to the side",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+.",
+    "keys": "Ctrl+.",
     "description": "Quick Fix",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+F12",
+    "keys": "Shift+F12",
     "description": "Show References",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "F2",
+    "keys": "F2",
     "description": "Rename Symbol",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+X",
+    "keys": "Ctrl+K Ctrl+X",
     "description": "Trim trailing whitespace",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K M",
+    "keys": "Ctrl+K M",
     "description": "Change file language",
     "category": "Rich languages editing",
     "computerType": "Windows"
   },
 
   {
-    "key": "Ctrl+F4, Ctrl+W",
+    "keys": "Ctrl+F4, Ctrl+W",
     "description": "Close editor",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K F",
+    "keys": "Ctrl+K F",
     "description": "Close folder",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+\\",
+    "keys": "Ctrl+\\",
     "description": "Split editor",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+ 1 / 2 / 3",
+    "keys": "Ctrl+ 1 / 2 / 3",
     "description": "Focus into 1st, 2nd or 3rd editor group",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+ ←/→",
+    "keys": "Ctrl+K Ctrl+ ←/→",
     "description": "Focus into previous/next editor group",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+PgUp / PgDn",
+    "keys": "Ctrl+Shift+PgUp / PgDn",
     "description": "Move editor left/right",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K ← / →",
+    "keys": "Ctrl+K ← / →",
     "description": "Move active editor groupFile management",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+N",
+    "keys": "Ctrl+N",
     "description": "New File",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+O",
+    "keys": "Ctrl+O",
     "description": "Open File...",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+S",
+    "keys": "Ctrl+S",
     "description": "Save",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+S",
+    "keys": "Ctrl+Shift+S",
     "description": "Save As...",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K S",
+    "keys": "Ctrl+K S",
     "description": "Save All",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+F4",
+    "keys": "Ctrl+F4",
     "description": "Close",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+W",
+    "keys": "Ctrl+K Ctrl+W",
     "description": "Close All",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+T",
+    "keys": "Ctrl+Shift+T",
     "description": "Reopen closed editor",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K",
+    "keys": "Ctrl+K",
     "description": "Enter Keep preview mode editor open",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Tab",
+    "keys": "Ctrl+Tab",
     "description": "Open next",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+Tab",
+    "keys": "Ctrl+Shift+Tab",
     "description": "Open previous",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K P",
+    "keys": "Ctrl+K P",
     "description": "Copy path of active file",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K R",
+    "keys": "Ctrl+K R",
     "description": "Reveal active file in Explorer",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K O",
+    "keys": "Ctrl+K O",
     "description": "Show active file in new window/instance",
     "category": "Editor management",
     "computerType": "Windows"
   },
   {
-    "key": "F11",
+    "keys": "F11",
     "description": "Toggle full screen",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+Alt+0",
+    "keys": "Shift+Alt+0",
     "description": "Toggle editor layout (horizontal/vertical)",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+ = / -",
+    "keys": "Ctrl+ = / -",
     "description": "Zoom in/out",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+B ",
+    "keys": "Ctrl+B ",
     "description": "Toggle Sidebar visibility",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+E",
+    "keys": "Ctrl+Shift+E",
     "description": "Show Explorer / Toggle focus",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+F",
+    "keys": "Ctrl+Shift+F",
     "description": "Show Search",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+G",
+    "keys": "Ctrl+Shift+G",
     "description": "Show Source Control",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+D",
+    "keys": "Ctrl+Shift+D",
     "description": "Show Debug",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+X",
+    "keys": "Ctrl+Shift+X",
     "description": "Show Extensions",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+H",
+    "keys": "Ctrl+Shift+H",
     "description": "Replace in files",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+J",
+    "keys": "Ctrl+Shift+J",
     "description": "Toggle Search details",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+U",
+    "keys": "Ctrl+Shift+U",
     "description": "Show Output panel",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+V",
+    "keys": "Ctrl+Shift+V",
     "description": "Open Markdown preview",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K V",
+    "keys": "Ctrl+K V",
     "description": "Open Markdown preview to the side",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Z",
+    "keys": "Ctrl+K Z",
     "description": "Zen Mode (Esc Esc to exit)",
     "category": "Display",
     "computerType": "Windows"
   },
   {
-    "key": "F9",
+    "keys": "F9",
     "description": "Toggle breakpoint",
     "category": "Debug",
     "computerType": "Windows"
   },
   {
-    "key": "F5",
+    "keys": "F5",
     "description": "Start/Continue",
     "category": "Debug",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+F5",
+    "keys": "Shift+F5",
     "description": "Stop",
     "category": "Debug",
     "computerType": "Windows"
   },
   {
-    "key": "F11 / Shift+F11",
+    "keys": "F11 / Shift+F11",
     "description": "Step into/out",
     "category": "Debug",
     "computerType": "Windows"
   },
   {
-    "key": "F10",
+    "keys": "F10",
     "description": "Step over",
     "category": "Debug",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+K Ctrl+I",
+    "keys": "Ctrl+K Ctrl+I",
     "description": "Show hover",
     "category": "Debug",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+`",
+    "keys": "Ctrl+`",
     "description": "Show integrated terminal",
     "category": "Integrated terminal",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Shift+`",
+    "keys": "Ctrl+Shift+`",
     "description": "Create new terminal",
     "category": "Integrated terminal",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+C",
+    "keys": "Ctrl+C",
     "description": "Copy selection",
     "category": "Integrated terminal",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+V",
+    "keys": "Ctrl+V",
     "description": "Paste into active terminal",
     "category": "Integrated terminal",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+↑ / ↓",
+    "keys": "Ctrl+↑ / ↓",
     "description": "Scroll up/down",
     "category": "Integrated terminal",
     "computerType": "Windows"
   },
   {
-    "key": "Shift+PgUp / PgDn",
+    "keys": "Shift+PgUp / PgDn",
     "description": "Scroll page up/down",
     "category": "Integrated terminal",
     "computerType": "Windows"
   },
   {
-    "key": "Ctrl+Home / End",
+    "keys": "Ctrl+Home / End",
     "description": "Scroll to top/bottom",
     "category": "Integrated terminal",
     "computerType": "Windows"
   },
   {
-    "key": "Keyboard",
+    "keys": "Keyboard",
     "description": "shortcuts for Windows",
     "category": "Integrated terminal",
     "computerType": "Windows"
