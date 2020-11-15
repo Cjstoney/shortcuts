@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import macShortcuts from '../assets/macShortcuts.json';
+import windowsShortcuts from '../assets/windowsShortcuts.json';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shortcutHelper';
+
+macShortcuts = macShortcuts;
+
+
+
 }

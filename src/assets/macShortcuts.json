@@ -1,0 +1,703 @@
+[
+  {
+    "keys": "⇧⌘P, F1",
+    "description": "Show Command Palette",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘P",
+    "description": "Quick Open, Go to File…",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘N",
+    "description": "New window/instance",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘W",
+    "description": " Close window/instance",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘",
+    "description": "User Settings",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘S",
+    "description": "Basic editing",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘X",
+    "description": "Cut line (empty selection)",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘C",
+    "description": "Copy line (empty selection)",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥↓ / ⌥↑",
+    "description": "Move line down/up",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥↓ / ⇧⌥↑",
+    "description": "Copy line down/up",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘K",
+    "description": "Delete line",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘Enter / ⇧⌘Enter",
+    "description": "Insert line below/above",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘\\",
+    "description": "Jump to matching bracket",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘] / ⌘[",
+    "description": "Indent/outdent line",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "Home / End",
+    "description": "Go to beginning/end of line",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘↑ / ⌘↓",
+    "description": "Go to beginning/end of file",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃PgUp / ⌃PgDn",
+    "description": "Scroll line up/down",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘PgUp /⌘PgDn",
+    "description": "Scroll page up/down",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥⌘[ / ⌥⌘]",
+    "description": "Fold/unfold region",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘[ / ⌘K ⌘]",
+    "description": "Fold/unfold all subregions",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘0 / ⌘K ⌘J",
+    "description": "Fold/unfold all regions",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘C",
+    "description": "Add line comment",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘U",
+    "description": "Remove line comment",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘/",
+    "description": "Toggle line comment",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥A",
+    "description": "Toggle block comment",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥Z",
+    "description": "Toggle word wrap",
+    "category": "General",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥ + click",
+    "description": "Insert cursor",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥⌘↑",
+    "description": "Insert cursor above",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥⌘↓",
+    "description": "Insert cursor below",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘U",
+    "description": "Undo last cursor operation",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥I",
+    "description": "Insert cursor at end of each line selected",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘L",
+    "description": "Select current line",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘L",
+    "description": "Select all occurrences of current selection",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘F2",
+    "description": "Select all occurrences of current word",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃⇧⌘→ / ←",
+    "description": "Expand / shrink selection",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥ + drag mouse",
+    "description": "Column (box) selection",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥⌘↑ / ↓",
+    "description": "Column (box) selection up/down",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥⌘← / →",
+    "description": "Column (box) selection left/right",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥⌘PgUp",
+    "description": "Column (box) selection page up",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥⌘PgDn",
+    "description": "Column (box) selection page down",
+    "category": "Multi-cursor and selection",
+    "computerType": "Mac"
+  },
+
+  {
+    "keys": "⌘F",
+    "description": " Find",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥⌘F",
+    "description": " Replace",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘G / ⇧⌘G",
+    "description": "Find next/previous",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥Enter",
+    "description": "Select all occurrences of Find match",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘D",
+    "description": "Add selection to next Find match",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘D",
+    "description": "Move last selection to next Find match",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "Rich",
+    "description": "languages editing",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃Space",
+    "description": "Trigger suggestion",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘Space",
+    "description": "Trigger parameter hints",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌥F",
+    "description": "Format document",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘F",
+    "description": "Format selection",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "F12",
+    "description": "Go to Definition",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥F12",
+    "description": "Peek Definition",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K F12",
+    "description": "Open Definition to the side",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘.",
+    "description": "Quick Fix",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧F12",
+    "description": "Show References",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "F2",
+    "description": "Rename Symbol",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘X",
+    "description": "Trim trailing whitespace",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K M",
+    "description": "Change file language",
+    "category": "Search and replace",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘T",
+    "description": "Show all Symbols",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃G",
+    "description": "Go to Line...",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘P",
+    "description": "Go to File...",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘O",
+    "description": "Go to Symbol...",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘M",
+    "description": "Show Problems panel",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "F8 / ⇧F8",
+    "description": "Go to next/previous error or warning",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃⇧Tab",
+    "description": "Navigate editor group history",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃- / ⌃⇧-",
+    "description": "Go back/forward",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃⇧M",
+    "description": "Toggle Tab moves focus",
+    "category": "Navigation",
+    "computerType": "Mac"
+  },
+
+  {
+    "keys": "⌘W",
+    "description": "Close editor",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K F",
+    "description": "Close folder",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘\\",
+    "description": "Split editor",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘1 / ⌘2 / ⌘3",
+    "description": "Focus into 1",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "st",
+    "description": ", 2nd, 3rd editor group",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘← / ⌘K ⌘→",
+    "description": "Focus into previous/next editor group",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⇧⌘← / ⌘K ⇧⌘→",
+    "description": "Move editor left/right",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ← / ⌘K → ",
+    "description": "Move active editor group",
+    "category": "Editor management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘N",
+    "description": "New File",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘O",
+    "description": "Open File...",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘S",
+    "description": "Save",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘S",
+    "description": "Save As...",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥⌘S",
+    "description": "Save All",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘W",
+    "description": "Close",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘W",
+    "description": "Close All",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘T",
+    "description": "Reopen closed editor",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K",
+    "description": "Enter Keep preview mode editor open",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃Tab / ⌃⇧Tab",
+    "description": "Open next / previous",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K P",
+    "description": "Copy path of active file",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K R",
+    "description": "Reveal active file in Finder",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K O",
+    "description": "Show active file in new window/instance",
+    "category": "File management",
+    "computerType": "Mac"
+  },
+
+  {
+    "keys": "⌃⌘F",
+    "description": "Toggle full screen",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌥⌘0",
+    "description": "Toggle editor layout (horizontal/vertical)",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘= / ⇧⌘-",
+    "description": "Zoom in/out",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘B",
+    "description": "Toggle Sidebar visibility",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘E",
+    "description": "Show Explorer / Toggle focus",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘F",
+    "description": "Show Search",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃⇧G",
+    "description": "Show Source Control",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘D",
+    "description": "Show Debug",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘X",
+    "description": "Show Extensions",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘H",
+    "description": "Replace in files",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘J",
+    "description": "Toggle Search details",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘U",
+    "description": "Show Output panel",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧⌘V",
+    "description": "Open Markdown preview",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K V",
+    "description": "Open Markdown preview to the side",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K Z",
+    "description": "Zen Mode (Esc Esc to exit)",
+    "category": "Display",
+    "computerType": "Mac"
+  },
+
+  {
+    "keys": "F9",
+    "description": "Toggle breakpoint",
+    "category": "Debug",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "F5",
+    "description": "Start/Continue",
+    "category": "Debug",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "F11 / ⇧F11",
+    "description": "Step into/ out",
+    "category": "Debug",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "F10",
+    "description": "Step over",
+    "category": "Debug",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⇧F5",
+    "description": "Stop",
+    "category": "Debug",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘K ⌘I",
+    "description": "Show",
+    "category": "Debug",
+    "computerType": "Mac"
+  },
+
+  {
+    "keys": "⌃",
+    "description": "` Show integrated terminal",
+    "category": "Integrated terminal",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌃⇧",
+    "description": "` Create new terminal",
+    "category": "Integrated terminal",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘C",
+    "description": " Copy selection",
+    "category": "Integrated terminal",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘↑",
+    "description": " / ↓ Scroll up/down",
+    "category": "Integrated terminal",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "PgUp",
+    "description": " / PgDn Scroll page up/down",
+    "category": "Integrated terminal",
+    "computerType": "Mac"
+  },
+  {
+    "keys": "⌘Home",
+    "description": " / End Scroll to top/bottom",
+    "category": "Integrated terminal",
+    "computerType": "Mac"
+  }
+]
