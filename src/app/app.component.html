@@ -1,11 +1,27 @@
 <div class="computerTypeButtons">
   <button (click)="clickedButton('Mac')">Mac</button>
   <button (click)="clickedButton('Windows')">Windows</button>
+  <form class="example-form">
+    <input
+      type="text"
+      placeholder="Search for a command"
+      [formControl]="control"
+      [matAutocomplete]="auto"
+    />
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option
+        *ngFor="let shortCut of filteredShortCuts | async"
+        [value]="shortCut"
+      >
+        {{ shortCut }}
+      </mat-option>
+    </mat-autocomplete>
+  </form>
   <h1>{{ typeDisplay[0].computerType }}</h1>
-  <div *ngFor="let shortcut of typeDisplay">
+  <!-- <div *ngFor="let shortcut of typeDisplay">
     <p>{{ shortcut.keys }}</p>
     <p>{{ shortcut.description }}</p>
-  </div>
+  </div> -->
 </div>
 
 <router-outlet></router-outlet>
