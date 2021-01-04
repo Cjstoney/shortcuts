@@ -3,7 +3,7 @@ import windowsShortcuts from '../assets/windowsShortcuts.json'
 import {Component, OnInit} from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
-import {startWith, map} from 'rxjs/operators';
+import {startWith, map, tap} from 'rxjs/operators';
 
 
 @Component({
@@ -23,6 +23,7 @@ export class AppComponent implements OnInit{
 
 macShortcuts: InfoObject[] = macShortcuts
 windowsShortcuts: InfoObject[] = windowsShortcuts
+itemToShow: InfoObject
 inputString: string[] = []
 control = new FormControl()
 filteredShortCuts: Observable<string []>
@@ -34,7 +35,10 @@ ngOnInit(): void {
   );
 }
 
-
+selectedShortcut(something){
+  this.itemToShow = this.typeDisplay.filter(x=>x.description === something).slice(0,1).pop()
+  console.log(this.itemToShow)
+}
   clickedButton(event) {
     event === 'Mac' ?
     this.typeDisplay = macShortcuts : this.typeDisplay = windowsShortcuts
