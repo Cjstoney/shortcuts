@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatAutocompleteModule} from '@angular/material/autocomplete'
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatIconModule} from '@angular/material'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

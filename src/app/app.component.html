@@ -15,7 +15,8 @@
       Windows
     </button>
   </div>
-  <form class="example-form">
+  <div class="example-form">
+    <mat-icon class="searchIcon">search</mat-icon>
     <input
       class="searchInput"
       type="text"
@@ -33,7 +34,7 @@
         {{ shortCut }}
       </mat-option>
     </mat-autocomplete>
-  </form>
+  </div>
   <h1 class="computerTypeHeader">{{ typeDisplay[0].computerType }}</h1>
   <div class="shortcutDefinition" *ngIf="!!itemToShow; else elseBlock">
     <p class="definitionLine">{{ itemToShow.description }}</p>
