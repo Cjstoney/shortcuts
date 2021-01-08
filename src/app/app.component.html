@@ -1,7 +1,17 @@
 <div class="pageWrapper">
   <div class="computerBtnsContainer">
-    <button class="computerTypeBtn" (click)="clickedButton('Mac')">Mac</button>
-    <button class="computerTypeBtn" (click)="clickedButton('Windows')">
+    <button
+      class="computerTypeBtn"
+      id="computerTypeMac"
+      (click)="clickedButton('Mac')"
+    >
+      Mac
+    </button>
+    <button
+      class="computerTypeBtn"
+      id="computerTypeWindows"
+      (click)="clickedButton('Windows')"
+    >
       Windows
     </button>
   </div>
@@ -12,6 +22,7 @@
       placeholder="Search for a command"
       [formControl]="control"
       [matAutocomplete]="auto"
+      (keyup.enter)="onEnterKey($event)"
     />
     <mat-autocomplete #auto="matAutocomplete">
       <mat-option
@@ -24,11 +35,28 @@
     </mat-autocomplete>
   </form>
   <h1 class="computerTypeHeader">{{ typeDisplay[0].computerType }}</h1>
-  <div class="shorcutDefinition" *ngIf="!!itemToShow">
+  <div class="shortcutDefinition" *ngIf="!!itemToShow; else elseBlock">
     <p class="definitionLine">{{ itemToShow.description }}</p>
     <p class="definitionLine">{{ itemToShow.keys }}</p>
     <p class="definitionLine">{{ itemToShow.category }}</p>
   </div>
 </div>
+
+<ng-template class="shortcutDefinition" #elseBlock>
+  <ul class="shortcutDefinition shortCutList">
+    <li
+      class="allDescriptionItem"
+      *ngFor="let itemDescription of typeDisplay"
+      [value]="itemDescription"
+    >
+      <button
+        class="allDescriptionButton"
+        (mouseup)="selectedShortcut(itemDescription.description)"
+      >
+        {{ itemDescription.description }}
+      </button>
+    </li>
+  </ul></ng-template
+>
 
 <router-outlet></router-outlet>

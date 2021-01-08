@@ -1,13 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .pageWrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /*computer type buttons */
 .computerBtnsContainer {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row-start: 1;
   grid-column-start: 2;
   grid-column-end: span 8;
@@ -15,20 +21,63 @@
 }
 
 .computerTypeBtn {
-  margin-left: auto;
+  align-self: center;
+  justify-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3-start;
 }
-/* end buttons */
+#computerTypeMac {
+  grid-column-start: 2;
+  grid-column-end: 3-start;
+}
+#computerTypeWindows {
+  grid-column-start: 3;
+  grid-column-end: 4-start;
+}
+/* end computer type buttons */
 
+/* input field and autocomplete */
 .example-form {
   grid-column-start: 2;
   grid-column-end: span 8;
-  grid-row-start: 2;
+  grid-row-start: 3;
   margin-left: auto;
   margin-right: auto;
+  align-self: center;
+  justify-self: center;
+  width: 90%;
 }
+.searchInput {
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+/* end input field and autocomplete */
+
 .computerTypeHeader {
-  grid-row-start: 3;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: span 8;
+  justify-self: center;
+  align-self: center;
 }
-.shorcutDefinition {
+.shortcutDefinition {
   grid-row-start: 4;
+  grid-column-end: span 9;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+
+.shortCutList {
+  grid-row-start: 4;
+  list-style-type: none;
+}
+
+.allDescriptionItem {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }

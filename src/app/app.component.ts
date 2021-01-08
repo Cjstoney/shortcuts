@@ -4,6 +4,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {startWith, map, tap} from 'rxjs/operators';
+import { FormBuilder } from '@angular/forms';
 
 
 @Component({
@@ -12,6 +13,8 @@ import {startWith, map, tap} from 'rxjs/operators';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+ inputSubmission;
+
   title = 'shortcutHelper'
   typeDisplay: InfoObject[] = [
     {keys: '',
@@ -28,17 +31,26 @@ inputString: string[] = []
 control = new FormControl()
 filteredShortCuts: Observable<string []>
 
-ngOnInit(): void {
-  this.filteredShortCuts = this.control.valueChanges.pipe(
-    startWith(''),
-    map(value => this._filter(value))
-  );
+constructor(private formBuilder: FormBuilder){
+this.inputSubmission = this.formBuilder.group({input:''})
 }
 
-selectedShortcut(something){
-  this.itemToShow = this.typeDisplay.filter(x=>x.description === something).slice(0,1).pop()
-  console.log(this.itemToShow)
-}
+  ngOnInit(): void {
+    this.filteredShortCuts = this.control.valueChanges.pipe(
+      startWith(''),
+      map(value => this._filter(value))
+    );
+  }
+
+  onEnterKey(event){
+    if (event.keyCode === 13) {
+      this.selectedShortcut(event.originalTarget.value)
+   }
+  }
+
+  selectedShortcut(something: string){
+    this.itemToShow = this.typeDisplay.filter(x=>x.description === something).slice(0,1).pop()
+  }
   clickedButton(event) {
     event === 'Mac' ?
     this.typeDisplay = macShortcuts : this.typeDisplay = windowsShortcuts
