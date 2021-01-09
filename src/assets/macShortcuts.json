@@ -665,38 +665,38 @@
   },
 
   {
-    "keys": "⌃",
-    "description": "` Show integrated terminal",
+    "keys": "⌃ `",
+    "description": "Show integrated terminal",
     "category": "Integrated terminal",
     "computerType": "Mac"
   },
   {
-    "keys": "⌃⇧",
-    "description": "` Create new terminal",
+    "keys": "⌃⇧ `",
+    "description": "Create new terminal",
     "category": "Integrated terminal",
     "computerType": "Mac"
   },
   {
     "keys": "⌘C",
-    "description": " Copy selection",
+    "description": "Copy selection",
     "category": "Integrated terminal",
     "computerType": "Mac"
   },
   {
-    "keys": "⌘↑",
-    "description": " / ↓ Scroll up/down",
+    "keys": "⌘↑ / ↓",
+    "description": "Scroll up/down",
     "category": "Integrated terminal",
     "computerType": "Mac"
   },
   {
-    "keys": "PgUp",
-    "description": " / PgDn Scroll page up/down",
+    "keys": "PgUp / PgDn",
+    "description": "Scroll page up/down",
     "category": "Integrated terminal",
     "computerType": "Mac"
   },
   {
-    "keys": "⌘Home",
-    "description": " / End Scroll to top/bottom",
+    "keys": "⌘Home / End",
+    "description": "Scroll to top/bottom",
     "category": "Integrated terminal",
     "computerType": "Mac"
   }
