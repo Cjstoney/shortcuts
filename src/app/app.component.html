@@ -39,7 +39,7 @@
     class="computerTypeHeader"
     *ngIf="typeDisplay.length < 2; else computerTypeHeader"
   >
-    <h1>Select and OS from above</h1>
+    <h1>Select an OS from above</h1>
   </div>
   <h1 class="computerTypeHeader" *ngIf="!!typeDisplay.length">
     {{ typeDisplay[0].computerType }}
