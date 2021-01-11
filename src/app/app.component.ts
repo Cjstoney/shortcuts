@@ -56,6 +56,24 @@ this.inputSubmission = this.formBuilder.group({input:''})
     this.typeDisplay = macShortcuts : this.typeDisplay = windowsShortcuts
   }
 
+  resetDefaults(){
+    const computerType = this.typeDisplay[0].computerType
+    this.typeDisplay = [{
+      category:'',
+      computerType:computerType,
+      description:'',
+      keys:''
+    }]
+    this.itemToShow={
+      category:'',
+      computerType:'',
+      description:'',
+      keys:''
+    }
+    console.log('reset clicked', this.typeDisplay[0].computerType)
+
+  }
+
   private _filter(value: string): string[] {
     const filterValue = this._normalizeValue(value);
     return this.typeDisplay.map(x=>x.description).filter(shortcutDescription => this._normalizeValue(shortcutDescription).includes(filterValue));
