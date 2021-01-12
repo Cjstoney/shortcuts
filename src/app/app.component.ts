@@ -55,6 +55,7 @@ this.inputSubmission = this.formBuilder.group({input:''})
 
   selectedShortcut(something: string){
     this.itemToShow = this.typeDisplay.filter(x=>x.description === something).slice(0,1).pop()
+    this.control.setValue(this.itemToShow.description)
   }
   clickedButton(event) {
     event === 'Mac' ?
