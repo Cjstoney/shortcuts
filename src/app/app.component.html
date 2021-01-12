@@ -15,7 +15,7 @@
       Windows
     </button>
   </div>
-  <div class="example-form">
+  <form class="example-form">
     <mat-icon class="searchIcon">search</mat-icon>
     <input
       class="searchInput"
@@ -25,6 +25,9 @@
       [matAutocomplete]="auto"
       (keyup.enter)="onEnterKey($event)"
     />
+    <button id="clear" (click)="resetDefaults()">
+      <mat-icon class="clearIcon">clear</mat-icon>
+    </button>
     <mat-autocomplete #auto="matAutocomplete">
       <mat-option
         *ngFor="let shortCut of filteredShortCuts | async"
@@ -34,10 +37,10 @@
         {{ shortCut }}
       </mat-option>
     </mat-autocomplete>
-  </div>
+  </form>
   <div
     class="computerTypeHeader"
-    *ngIf="typeDisplay.length < 2; else computerTypeHeader"
+    *ngIf="typeDisplay.length < 1; else computerTypeHeader"
   >
     <h1>Select an OS from above</h1>
   </div>
