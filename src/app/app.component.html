@@ -15,7 +15,7 @@
       Windows
     </button>
   </div>
-  <div class="example-form">
+  <form class="example-form">
     <mat-icon class="searchIcon">search</mat-icon>
     <input
       class="searchInput"
@@ -37,7 +37,7 @@
         {{ shortCut }}
       </mat-option>
     </mat-autocomplete>
-  </div>
+  </form>
   <div
     class="computerTypeHeader"
     *ngIf="typeDisplay.length < 1; else computerTypeHeader"
