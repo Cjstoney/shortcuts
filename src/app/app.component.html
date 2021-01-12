@@ -28,7 +28,7 @@
     <button id="clear" (click)="resetDefaults()">
       <mat-icon class="clearIcon">clear</mat-icon>
     </button>
-    <mat-autocomplete #auto="matAutocomplete">
+    <mat-autocomplete class="autoComplete" #auto="matAutocomplete">
       <mat-option
         *ngFor="let shortCut of filteredShortCuts | async"
         [value]="shortCut"

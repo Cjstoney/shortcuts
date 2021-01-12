@@ -88,8 +88,15 @@
 }
 
 mat-option {
-  background: none;
+  background: #2a4555;
+  color: #0e141b;
+  font-family: "Wotfard", Futura, -apple-system, sans-serif;
 }
+
+mat-option:hover {
+  color: #ff0a78;
+}
+
 /* end input field and autocomplete */
 
 .computerTypeHeader {

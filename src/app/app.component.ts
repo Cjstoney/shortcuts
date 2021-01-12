@@ -1,6 +1,6 @@
 import macShortcuts from '../assets/macShortcuts.json'
 import windowsShortcuts from '../assets/windowsShortcuts.json'
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {FormControl} from '@angular/forms';
 import {Observable} from 'rxjs';
 import {startWith, map, tap} from 'rxjs/operators';
@@ -14,6 +14,9 @@ import { FormBuilder } from '@angular/forms';
 })
 export class AppComponent implements OnInit{
  inputSubmission;
+
+
+ @Input('class') autoComplete : string | string[]
 
   title = 'shortcutHelper'
   typeDisplay: InfoObject[] = [
