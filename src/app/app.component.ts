@@ -36,10 +36,15 @@ this.inputSubmission = this.formBuilder.group({input:''})
 }
 
   ngOnInit(): void {
-    this.filteredShortCuts = this.control.valueChanges.pipe(
+    this.filteredShortCuts = this.startValueChanges()
+  }
+
+  startValueChanges():Observable<string[]>{
+    return this.control.valueChanges.pipe(
       startWith(''),
       map(value => this._filter(value))
     );
+
   }
 
   onEnterKey(event){
@@ -57,20 +62,12 @@ this.inputSubmission = this.formBuilder.group({input:''})
   }
 
   resetDefaults(){
+    this.control.setValue('')
+    this.itemToShow=null
     const computerType = this.typeDisplay[0].computerType
-    this.typeDisplay = [{
-      category:'',
-      computerType:computerType,
-      description:'',
-      keys:''
-    }]
-    this.itemToShow={
-      category:'',
-      computerType:'',
-      description:'',
-      keys:''
-    }
-    console.log('reset clicked', this.typeDisplay[0].computerType)
+    computerType === 'Mac' ?
+     this.typeDisplay = macShortcuts:
+     this.typeDisplay=windowsShortcuts
 
   }
 
