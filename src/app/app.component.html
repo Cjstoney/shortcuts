@@ -1,5 +1,6 @@
 <div class="pageWrapper">
   <div class="computerBtnsContainer">
+    <h1 class="title">VS Code Shortcut Helper</h1>
     <button
       class="computerTypeBtn"
       id="computerTypeMac"
@@ -15,7 +16,7 @@
       Windows
     </button>
   </div>
-  <form class="example-form">
+  <form *ngIf="!!typeDisplay[0].computerType" class="example-form">
     <mat-icon class="searchIcon">search</mat-icon>
     <input
       class="searchInput"
@@ -40,7 +41,7 @@
   </form>
   <div
     class="computerTypeHeader"
-    *ngIf="typeDisplay.length < 1; else computerTypeHeader"
+    *ngIf="!typeDisplay[0].computerType; else computerTypeHeader"
   >
     <h1>Select an OS from above</h1>
   </div>
