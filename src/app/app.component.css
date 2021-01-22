@@ -14,7 +14,7 @@
   grid-row-start: 1;
   grid-column-start: 2;
   grid-column-end: span 8;
-  height: 200px;
+  max-height: 300px;
   width: 100%;
 }
 
@@ -24,6 +24,7 @@
   grid-column-start: 1;
   grid-column-end: span 4;
   font-size: 3rem;
+  text-align: center;
 }
 .computerTypeBtn {
   align-self: center;
